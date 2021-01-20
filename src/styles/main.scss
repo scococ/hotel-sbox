@@ -1,46 +1,13 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+//Color pallet
+$primiray: #434343;
+$secondary: #7d7d7f;
+$third: #47b2b2;
+$poker: #7fffff;
 
 
 body{
   font-family: 'Roboto Mono', monospace;
-  background-color: #434343;
+  background-color: $primiray;
 }
 
 .safe-container{
@@ -48,7 +15,7 @@ body{
   border: 2px solid #000;
   border-radius: 4px;
   box-shadow: 0 3px 10px #000;
-  background-color: #7d7d7f;
+  background-color: $secondary;
   user-select: none;
 }
 
@@ -60,18 +27,19 @@ body{
 }
 
 .screen-bar{
-  background-color: #47b2b2;
+  background-color: $third;
   border-radius: 4px;
   padding: 10px;
   margin-bottom: 20px;
-}
 
-.screen-bar.active{
-  background-color: #7fffff;
+  &.active{
+    background-color: $poker;
+  }
+
 }
 
 .status-bar{
-  color: #434343;
+  color: $primiray;
 }
 
 .status-bar{
@@ -101,16 +69,20 @@ body{
   background-color: #63636e;
   user-select: none;
   transition: 250ms ease-in;
+
+  &:hover{
+    border-color: #e2e2e2;
+  }
+  &:nth-child(3n + 3){
+    margin-right: unset;
+  }
+  &.prevent{
+    pointer-events: none;
+  }
 }
-.btn:hover{
-  border-color: #e2e2e2;
-}
-.prevent.btn{
-  pointer-events: none;
-}
-.btn:nth-child(3n + 3){
-  margin-right: unset;
-}
+
+
+
 .btn-text{
   font-size: 48px;
   color: #f3f3f3;
