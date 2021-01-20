@@ -30,7 +30,6 @@ const initialState = {
 };
 
 export function box(state = initialState, action) {
-  console.log(action.type, "TYPEEEE", state.status);
   switch (action.type) {
     case LOCKED_STATUS:
       return { ...state, locked: true, status: "", locking: false };

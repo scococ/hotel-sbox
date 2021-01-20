@@ -100,7 +100,6 @@ const BoxContainer = ({ active, status, locked, service_mode, locking }) => {
   }, [boxState]);
 
   useEffect(() => {
-    console.log(submit, "does it ever changeee");
     if (service_mode && boxState?.length > 1 && submit) {
       let fixedVal = boxState.join();
       fixedVal = fixedVal.replace(/,/g, "");
