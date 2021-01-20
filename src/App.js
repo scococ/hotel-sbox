@@ -1,13 +1,12 @@
-import './App.css';
+import "./App.css";
 import BoxContainer from "./components/Box/Box";
 
 function App() {
-
   return (
     <div className="App">
       <header className="App-header">
         SAFE DEPOSIT BOX
-        <BoxContainer/>
+        <BoxContainer />
       </header>
     </div>
   );

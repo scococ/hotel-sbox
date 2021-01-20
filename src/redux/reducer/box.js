@@ -59,7 +59,12 @@ export function box(state = initialState, action) {
       return { ...state, status: "Unlocking", locking: true };
 
     case SERVICE_STATUS:
-      return { ...state, status: "Service", service_mode: true, locking: false };
+      return {
+        ...state,
+        status: "Service",
+        service_mode: true,
+        locking: false,
+      };
     case VALIDATING_STATUS:
       return { ...state, status: "Validating" };
     case SET_ACTIVE:

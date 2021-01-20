@@ -6,17 +6,19 @@ const Button = ({
   handleClick,
   handleLock,
   service_mode,
-    locked,
+  locked,
   locking,
 }) => {
   return (
     <div
-      className={`btn ${locking ? 'prevent': ''} `}
+      className={`btn ${locking ? "prevent" : ""} `}
       onClick={() =>
         value === "L"
           ? service_mode
             ? handleClick(value)
-            : locked ? null : handleLock()
+            : locked
+            ? null
+            : handleLock()
           : value === "*" && !service_mode
           ? null
           : handleClick(value)
@@ -27,8 +29,5 @@ const Button = ({
     </div>
   );
 };
-
-
-
 
 export default Button;

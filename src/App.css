@@ -37,13 +37,12 @@
   }
 }
 
-
-body{
-  font-family: 'Roboto Mono', monospace;
+body {
+  font-family: "Roboto Mono", monospace;
   background-color: #434343;
 }
 
-.safe-container{
+.safe-container {
   padding: 20px 35px 30px;
   border: 2px solid #000;
   border-radius: 4px;
@@ -52,40 +51,40 @@ body{
   user-select: none;
 }
 
-.btn-box{
+.btn-box {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   max-width: 410px;
 }
 
-.screen-bar{
+.screen-bar {
   background-color: #47b2b2;
   border-radius: 4px;
   padding: 10px;
   margin-bottom: 20px;
 }
 
-.screen-bar.active{
+.screen-bar.active {
   background-color: #7fffff;
 }
 
-.status-bar{
+.status-bar {
   color: #434343;
 }
 
-.status-bar{
+.status-bar {
   text-align: left;
 }
 
-.message-bar{
+.message-bar {
   text-align: right;
   font-size: 40px;
   min-height: 58px;
   padding-top: 15px;
 }
 
-.btn{
+.btn {
   width: 120px;
   height: 120px;
   margin-right: 15px;
@@ -102,21 +101,21 @@ body{
   user-select: none;
   transition: 250ms ease-in;
 }
-.btn:hover{
+.btn:hover {
   border-color: #e2e2e2;
 }
-.prevent.btn{
+.prevent.btn {
   pointer-events: none;
 }
-.btn:nth-child(3n + 3){
+.btn:nth-child(3n + 3) {
   margin-right: unset;
 }
-.btn-text{
+.btn-text {
   font-size: 48px;
   color: #f3f3f3;
 }
 
-.icon-placeholder{
+.icon-placeholder {
   width: 12px;
   height: 12px;
   display: flex;

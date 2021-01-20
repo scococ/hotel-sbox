@@ -29,10 +29,3 @@ export const IDLE_SCREEN_TIME = 5000;
 export const LOCKING_TIME = 3000;
 
 export const INPUT_SUBMIT_TIME = 1200;
-
-
-
-
-
-
-

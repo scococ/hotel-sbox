@@ -1,7 +1,7 @@
-import { combineReducers } from 'redux'
+import { combineReducers } from "redux";
 
-import { box } from './box'
+import { box } from "./box";
 
 export default combineReducers({
-    box: box,
-})
+  box: box,
+});

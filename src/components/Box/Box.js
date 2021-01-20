@@ -100,7 +100,7 @@ const BoxContainer = ({ active, status, locked, service_mode, locking }) => {
   }, [boxState]);
 
   useEffect(() => {
-    console.log(submit, 'does it ever changeee');
+    console.log(submit, "does it ever changeee");
     if (service_mode && boxState?.length > 1 && submit) {
       let fixedVal = boxState.join();
       fixedVal = fixedVal.replace(/,/g, "");
@@ -120,7 +120,7 @@ const BoxContainer = ({ active, status, locked, service_mode, locking }) => {
         });
     }
 
-    if(service_mode) {
+    if (service_mode) {
       setInputTimer();
     }
     return () => {
@@ -151,7 +151,7 @@ const BoxContainer = ({ active, status, locked, service_mode, locking }) => {
   };
 
   const handleLock = () => {
-    if(boxState?.length > 5 && !service_mode){
+    if (boxState?.length > 5 && !service_mode) {
       dispatch(preventType());
     }
     clearIdleTimer();
@@ -175,7 +175,7 @@ const BoxContainer = ({ active, status, locked, service_mode, locking }) => {
     lockTimer.current = setTimeout(() => {
       setSubmit(true);
     }, INPUT_SUBMIT_TIME);
-  }
+  };
 
   return (
     <div className="safe-container">
