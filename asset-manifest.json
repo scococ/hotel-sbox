@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/hotel-sbox/static/css/main.13ea7d8c.chunk.css",
-    "main.js": "/hotel-sbox/static/js/main.af4855e1.chunk.js",
-    "main.js.map": "/hotel-sbox/static/js/main.af4855e1.chunk.js.map",
+    "main.css": "/hotel-sbox/static/css/main.7e7cd483.chunk.css",
+    "main.js": "/hotel-sbox/static/js/main.7dbc2dd3.chunk.js",
+    "main.js.map": "/hotel-sbox/static/js/main.7dbc2dd3.chunk.js.map",
     "runtime-main.js": "/hotel-sbox/static/js/runtime-main.66c459c6.js",
     "runtime-main.js.map": "/hotel-sbox/static/js/runtime-main.66c459c6.js.map",
     "static/js/2.66126a80.chunk.js": "/hotel-sbox/static/js/2.66126a80.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.4dc23ce4.chunk.js": "/hotel-sbox/static/js/3.4dc23ce4.chunk.js",
     "static/js/3.4dc23ce4.chunk.js.map": "/hotel-sbox/static/js/3.4dc23ce4.chunk.js.map",
     "index.html": "/hotel-sbox/index.html",
-    "static/css/main.13ea7d8c.chunk.css.map": "/hotel-sbox/static/css/main.13ea7d8c.chunk.css.map",
+    "static/css/main.7e7cd483.chunk.css.map": "/hotel-sbox/static/css/main.7e7cd483.chunk.css.map",
     "static/js/2.66126a80.chunk.js.LICENSE.txt": "/hotel-sbox/static/js/2.66126a80.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.66c459c6.js",
     "static/js/2.66126a80.chunk.js",
-    "static/css/main.13ea7d8c.chunk.css",
-    "static/js/main.af4855e1.chunk.js"
+    "static/css/main.7e7cd483.chunk.css",
+    "static/js/main.7dbc2dd3.chunk.js"
   ]
 }
